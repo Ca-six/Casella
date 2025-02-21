@@ -11,8 +11,8 @@ header {
 main {
     position: relative;
     height: 100vh;
-    overflow-y: scroll;
-    scroll-snap-type: y mandatory;
+    overflow: auto;
+    height: auto;
     padding-top: 60px; /* 给导航栏留出空间 */
 }
 
